@@ -1,6 +1,6 @@
 # Notification-for-wechatNotification-for-wechat
 
-![Static Badge](https://img.shields.io/badge/netmiko-4.2.0-blue%20)![Static Badge](https://img.shields.io/badge/openpyxl-3.1.2-green%20)![Static Badge](https://img.shields.io/badge/requests-2.31.0-red)![Static Badge](https://img.shields.io/badge/openpyxl-3.1.2-yellow)![Static Badge](https://img.shields.io/badge/XlsxWriter-3.1.9-oringo)![Static Badge](https://img.shields.io/badge/paramiko-3.3.1-pink)![Static Badge](https://img.shields.io/badge/python-3.10.6-9cf)
+![Static Badge](https://img.shields.io/badge/netmiko-4.2.0-blue%20) ![Static Badge](https://img.shields.io/badge/openpyxl-3.1.2-green%20) ![Static Badge](https://img.shields.io/badge/requests-2.31.0-red) ![Static Badge](https://img.shields.io/badge/openpyxl-3.1.2-yellow) ![Static Badge](https://img.shields.io/badge/XlsxWriter-3.1.9-oringo) ![Static Badge](https://img.shields.io/badge/paramiko-3.3.1-pink) ![Static Badge](https://img.shields.io/badge/python-3.10.6-9cf)
 
 
 
