@@ -64,8 +64,8 @@ def analyze_health_output(output):
 
         if 'Memory' in line:
             parts = line.split()  # 假设每个值都通过空格分隔
-            current_memory_usage = float(parts[1])  # 假设当前使用率是第三个元素
-            danger_memory_usage = float(parts[-2])  # 假设当前使用率是第三个元素
+            current_memory_usage = float(parts[1])  # 
+            danger_memory_usage = float(parts[-2])  # 
             if current_memory_usage < danger_memory_usage:
                 memory_color = RGBColor(0, 128, 0)  # 绿色
             else:
@@ -210,8 +210,8 @@ compress_zip(source_dir,target_file)
 def send():
     # 配置邮件信息
     time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    sender = '2093967710@qq.com'
-    receiver = ['dengshicong24@outlook.com','alanlan@139.com']
+    sender = '' #smtp邮箱服务器
+    receiver = ['邮箱地址','邮箱地址']
     subject = time+'巡检报告'
     attachment_path = 'LOG-MESSAGE.zip'
         # 构造邮件对象
@@ -234,7 +234,7 @@ def send():
 
     with smtplib.SMTP_SSL('smtp.qq.com', 465) as server:
         server.ehlo()
-        server.login('2093967710@qq.com', 'kfgoqjryeszkchcg')
+        server.login('邮箱地址', '密钥')
         server.sendmail(sender, receiver, message.as_string())
 
         server.quit()
@@ -242,9 +242,9 @@ def send():
 
 def main():
     template_path = 'template.xlsx'  # 替换为您的模板文件路径
-    app_token = "AT_w39ZFDIeWh8oCbJeuayZBYSoxPKRcbhF"
-    uids = ["UID_aHrUAEj5O8lSfSpisHRUllSWL0hx",
-            "UID_4W43ksZPq65FCeC2E8tZsnGfn0sN",
+    app_token = ""
+    uids = ["",
+            "",
             ]
 
 
