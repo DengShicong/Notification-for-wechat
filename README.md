@@ -37,5 +37,6 @@
 ## Usage
 
 脚本导入pycharm可直接使用，将自定义参数如Token，uid，邮箱之类替换即可。
+与template.xlsx模板文件同一目录下，在模板内设置多个巡检设备。
 
 Token获取与公众号相关信息可查看WxPusher文档：https://wxpusher.zjiecode.com/docs/#/
